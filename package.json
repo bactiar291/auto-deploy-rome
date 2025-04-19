@@ -1,0 +1,15 @@
+{
+  "name": "evm-deployer",
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node deploy.js"
+  },
+  "dependencies": {
+    "ethers": "^6.8.0",
+    "solc": "^0.8.25"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
